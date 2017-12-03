@@ -1,9 +1,9 @@
 
 #
-# Table structure for table `net2ftp_logAccess`
+# Table structure for table `devFTP_logAccess`
 #
 
-CREATE TABLE net2ftp_logAccess (
+CREATE TABLE devFTP_logAccess (
   date date NOT NULL default '0000-00-00',
   time time NOT NULL default '00:00:00',
   remote_addr text NOT NULL,
@@ -21,10 +21,10 @@ CREATE TABLE net2ftp_logAccess (
 # --------------------------------------------------------
 
 #
-# Table structure for table `net2ftp_logError`
+# Table structure for table `devFTP_logError`
 #
 
-CREATE TABLE net2ftp_logError (
+CREATE TABLE devFTP_logError (
   date date NOT NULL default '0000-00-00',
   time time NOT NULL default '00:00:00',
   ftpserver text NOT NULL,
@@ -47,10 +47,10 @@ CREATE TABLE net2ftp_logError (
 # --------------------------------------------------------
 
 #
-# Table structure for table `net2ftp_logLogin`
+# Table structure for table `devFTP_logLogin`
 #
 
-CREATE TABLE net2ftp_logLogin (
+CREATE TABLE devFTP_logLogin (
   date date NOT NULL default '0000-00-00',
   time time NOT NULL default '00:00:00',
   ftpserver text NOT NULL,
