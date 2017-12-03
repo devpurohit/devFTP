@@ -1,3 +1,12 @@
+- The main code of devFTP is released under the GNU GENERAL PUBLIC 
+  LICENSE (see text below).
+
+- The zip code in the /includes/zip.lib.php file was written by
+  Eric Mueller, Denis125 and Peter Listiak.
+
+- The code within the /htmlarea directory is released under a BSD style 
+  license. See the license.txt file in that directory.                    
+                    
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
